@@ -1,0 +1,263 @@
+2026-04-28 15:26:02 [Information] Now listening on: "https://localhost:7216"
+2026-04-28 15:26:02 [Information] Now listening on: "http://localhost:5112"
+2026-04-28 15:26:02 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-28 15:26:03 [Information] Hosting environment: "Development"
+2026-04-28 15:26:03 [Information] Content root path: "C:\Learning\DotNet\EmployeeManagementAPI"
+2026-04-28 15:26:09 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 663.6788 ms
+2026-04-28 15:26:13 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 50.1435 ms
+2026-04-28 15:26:52 [Information] Executed DbCommand ("271"ms) [Parameters=["@__normalizedUsername_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__normalizedUsername_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:26:52 [Information] Executed DbCommand ("41"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__normalizedEmail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:26:53 [Error] HTTP "POST" "/api/Auth/register" responded 500 in 4712.7159 ms
+2026-04-28 15:27:49 [Information] Executed DbCommand ("42"ms) [Parameters=["@__normalizedUsername_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__normalizedUsername_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:27:51 [Information] Executed DbCommand ("62"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__normalizedEmail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:28:00 [Error] HTTP "POST" "/api/Auth/register" responded 500 in 24998.6891 ms
+2026-04-28 15:30:48 [Information] Now listening on: "https://localhost:7216"
+2026-04-28 15:30:49 [Information] Now listening on: "http://localhost:5112"
+2026-04-28 15:30:49 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-28 15:30:49 [Information] Hosting environment: "Development"
+2026-04-28 15:30:49 [Information] Content root path: "C:\Learning\DotNet\EmployeeManagementAPI"
+2026-04-28 15:30:54 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 415.0422 ms
+2026-04-28 15:30:56 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 281.2704 ms
+2026-04-28 15:31:28 [Information] Executed DbCommand ("312"ms) [Parameters=["@__normalizedUsername_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__normalizedUsername_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:31:28 [Information] Executed DbCommand ("18"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__normalizedEmail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:31:28 [Information] User registration started for "string"
+2026-04-28 15:31:28 [Information] Executed DbCommand ("48"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 4000), @p2='?' (Size = 20), @p3='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [Role], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);"
+2026-04-28 15:31:28 [Information] HTTP "POST" "/api/Auth/register" responded 200 in 4564.5561 ms
+2026-04-28 15:41:29 [Information] Now listening on: "https://localhost:7216"
+2026-04-28 15:41:29 [Information] Now listening on: "http://localhost:5112"
+2026-04-28 15:41:32 [Information] Application started. Press Ctrl+C to shut down.
+2026-04-28 15:41:32 [Information] Hosting environment: "Development"
+2026-04-28 15:41:32 [Information] Content root path: "C:\Learning\DotNet\EmployeeManagementAPI"
+2026-04-28 15:41:34 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 578.1199 ms
+2026-04-28 15:41:35 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 67.9002 ms
+2026-04-28 15:42:04 [Information] Executed DbCommand ("562"ms) [Parameters=["@__normalizedUsername_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__normalizedUsername_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:42:05 [Information] Executed DbCommand ("26"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__normalizedEmail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:42:05 [Information] HTTP "POST" "/api/Auth/register" responded 400 in 4426.4650 ms
+2026-04-28 15:42:24 [Information] Executed DbCommand ("19"ms) [Parameters=["@__normalizedUsername_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Username]) = @__normalizedUsername_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:42:24 [Information] Executed DbCommand ("11"ms) [Parameters=["@__normalizedEmail_0='?' (Size = 100)"], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE LOWER([u].[Email]) = @__normalizedEmail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+2026-04-28 15:42:24 [Information] User registration started for "ron"
+2026-04-28 15:42:25 [Information] Executed DbCommand ("94"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (Size = 4000), @p2='?' (Size = 20), @p3='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [Role], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);"
+2026-04-28 15:42:25 [Information] HTTP "POST" "/api/Auth/register" responded 200 in 949.4172 ms
+2026-04-28 15:45:05 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 423.0250 ms
+2026-04-28 15:45:06 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 163.6527 ms
+2026-04-28 15:45:37 [Information] User registration started for "axar"
+2026-04-28 15:45:38 [Information] HTTP "POST" "/api/Auth/register" responded 200 in 6505.2959 ms
+2026-04-28 15:52:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 357.6282 ms
+2026-04-28 15:52:32 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 349.9678 ms
+2026-04-28 15:53:06 [Information] User registration started for "strirereng"
+2026-04-28 15:53:07 [Error] Unhandled exception occurred for Request "POST" "/api/Auth/register"
+System.Exception: Testing middleware crash
+   at EmployeeManagementAPI.Controllers.AuthController.Register(RegisterDTO register) in C:\Learning\DotNet\EmployeeManagementAPI\Controllers\AuthController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at EmployeeManagementAPI.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Learning\DotNet\EmployeeManagementAPI\Middleware\ExceptionMiddleware.cs:line 22
+2026-04-28 15:53:07 [Error] HTTP "POST" "/api/Auth/register" responded 500 in 6669.4343 ms
+2026-04-28 16:27:59 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 445.4934 ms
+2026-04-28 16:28:01 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 191.1194 ms
+2026-04-28 16:29:36 [Information] Register endpoint called for "jacob"
+2026-04-28 16:29:42 [Information] User registration started for "jacob"
+2026-04-28 16:29:43 [Information] HTTP "POST" "/api/Auth/register" responded 200 in 9144.7409 ms
+2026-04-28 16:30:37 [Information] Login endpoint called for "jacob"
+2026-04-28 16:30:37 [Information] Login attempt started for "jacob"
+2026-04-28 16:30:38 [Error] Unhandled exception occurred for Request "POST" "/api/Auth/login"
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.AspNetCore.Identity.PasswordHasher`1.VerifyHashedPassword(TUser user, String hashedPassword, String providedPassword)
+   at EmployeeManagementBLL.Security.PasswordHasherService.VerifyPassword(AppUser user, String enteredPassword, String storedHash) in C:\Learning\DotNet\EmployeeManagementBLL\Security\PasswordHasherService.cs:line 17
+   at EmployeeManagementBLL.Services.UserService.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementBLL\Services\UserService.cs:line 45
+   at EmployeeManagementAPI.Controllers.AuthController.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementAPI\Controllers\AuthController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at EmployeeManagementAPI.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Learning\DotNet\EmployeeManagementAPI\Middleware\ExceptionMiddleware.cs:line 22
+2026-04-28 16:30:39 [Error] HTTP "POST" "/api/Auth/login" responded 500 in 1314.0272 ms
+2026-04-28 16:32:29 [Information] Login endpoint called for "jacob"
+2026-04-28 16:32:29 [Information] Login attempt started for "jacob"
+2026-04-28 16:32:32 [Error] Unhandled exception occurred for Request "POST" "/api/Auth/login"
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.AspNetCore.Identity.PasswordHasher`1.VerifyHashedPassword(TUser user, String hashedPassword, String providedPassword)
+   at EmployeeManagementBLL.Security.PasswordHasherService.VerifyPassword(AppUser user, String enteredPassword, String storedHash) in C:\Learning\DotNet\EmployeeManagementBLL\Security\PasswordHasherService.cs:line 17
+   at EmployeeManagementBLL.Services.UserService.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementBLL\Services\UserService.cs:line 45
+   at EmployeeManagementAPI.Controllers.AuthController.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementAPI\Controllers\AuthController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at EmployeeManagementAPI.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Learning\DotNet\EmployeeManagementAPI\Middleware\ExceptionMiddleware.cs:line 22
+2026-04-28 16:32:32 [Error] HTTP "POST" "/api/Auth/login" responded 500 in 3355.7718 ms
+2026-04-28 16:37:55 [Information] Register endpoint called for "roshan"
+2026-04-28 16:37:55 [Information] User registration started for "roshan"
+2026-04-28 16:37:55 [Information] HTTP "POST" "/api/Auth/register" responded 200 in 492.2880 ms
+2026-04-28 16:38:15 [Information] Login endpoint called for "roshan"
+2026-04-28 16:38:15 [Information] Login attempt started for "roshan"
+2026-04-28 16:38:16 [Error] Unhandled exception occurred for Request "POST" "/api/Auth/login"
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.AspNetCore.Identity.PasswordHasher`1.VerifyHashedPassword(TUser user, String hashedPassword, String providedPassword)
+   at EmployeeManagementBLL.Security.PasswordHasherService.VerifyPassword(AppUser user, String enteredPassword, String storedHash) in C:\Learning\DotNet\EmployeeManagementBLL\Security\PasswordHasherService.cs:line 17
+   at EmployeeManagementBLL.Services.UserService.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementBLL\Services\UserService.cs:line 45
+   at EmployeeManagementAPI.Controllers.AuthController.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementAPI\Controllers\AuthController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at EmployeeManagementAPI.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Learning\DotNet\EmployeeManagementAPI\Middleware\ExceptionMiddleware.cs:line 22
+2026-04-28 16:38:16 [Error] HTTP "POST" "/api/Auth/login" responded 500 in 670.4129 ms
+2026-04-28 16:38:30 [Information] Login endpoint called for "roshan"
+2026-04-28 16:38:30 [Information] Login attempt started for "roshan"
+2026-04-28 16:38:31 [Error] Unhandled exception occurred for Request "POST" "/api/Auth/login"
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.AspNetCore.Identity.PasswordHasher`1.VerifyHashedPassword(TUser user, String hashedPassword, String providedPassword)
+   at EmployeeManagementBLL.Security.PasswordHasherService.VerifyPassword(AppUser user, String enteredPassword, String storedHash) in C:\Learning\DotNet\EmployeeManagementBLL\Security\PasswordHasherService.cs:line 17
+   at EmployeeManagementBLL.Services.UserService.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementBLL\Services\UserService.cs:line 45
+   at EmployeeManagementAPI.Controllers.AuthController.Login(LoginDTO login) in C:\Learning\DotNet\EmployeeManagementAPI\Controllers\AuthController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at EmployeeManagementAPI.Middleware.ExceptionMiddleware.Invoke(HttpContext context) in C:\Learning\DotNet\EmployeeManagementAPI\Middleware\ExceptionMiddleware.cs:line 22
+2026-04-28 16:38:31 [Error] HTTP "POST" "/api/Auth/login" responded 500 in 420.5577 ms
+2026-04-28 16:46:00 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 473.9984 ms
+2026-04-28 16:46:02 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 65.5343 ms
+2026-04-28 16:46:21 [Information] Login endpoint called for "roshan"
+2026-04-28 16:46:21 [Information] Login attempt started for "roshan"
+2026-04-28 16:46:27 [Information] Login successful for "roshan"
+2026-04-28 16:46:27 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 7460.1481 ms
+2026-04-28 16:47:19 [Information] Login endpoint called for "roshan"
+2026-04-28 16:47:19 [Information] Login attempt started for "roshan"
+2026-04-28 16:47:20 [Warning] Invalid login - wrong password for "roshan"
+2026-04-28 16:47:20 [Information] HTTP "POST" "/api/Auth/login" responded 401 in 2181.0218 ms

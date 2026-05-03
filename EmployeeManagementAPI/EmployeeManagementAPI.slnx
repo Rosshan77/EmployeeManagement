@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../EmployeeManagementBLL/EmployeeManagementBLL.csproj" />
+  <Project Path="../EmployeeManagementDAL/EmployeeManagementDAL.csproj" />
+  <Project Path="../EmployeeManagementModel/EmployeeManagementModel.csproj" Id="24431331-ca3b-4652-996c-2fb3840cfd45" />
+  <Project Path="EmployeeManagementAPI.csproj" />
+</Solution>

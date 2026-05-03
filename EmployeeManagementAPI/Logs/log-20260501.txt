@@ -1,0 +1,70 @@
+2026-05-01 16:28:08 [Information] HTTP "GET" "/swagger" responded 301 in 43.3169 ms
+2026-05-01 16:28:09 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 417.1338 ms
+2026-05-01 16:28:09 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 204.7000 ms
+2026-05-01 16:28:09 [Information] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 206.2650 ms
+2026-05-01 16:28:10 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 1305.5321 ms
+2026-05-01 16:28:11 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 208.8870 ms
+2026-05-01 16:28:25 [Information] Login endpoint called for "roshan"
+2026-05-01 16:28:25 [Information] Login attempt started for "roshan"
+2026-05-01 16:28:30 [Information] Login successful for "roshan"
+2026-05-01 16:28:30 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 5474.9867 ms
+2026-05-01 16:29:30 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-01 16:29:51 [Information] CACHE MISS : "employees_1_5_na_na_na_asc" -> Fetching from database
+2026-05-01 16:29:53 [Information] HTTP "GET" "/api/Employee" responded 200 in 23000.9464 ms
+2026-05-01 16:30:04 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-01 16:30:15 [Information] CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-01 16:30:20 [Information] HTTP "GET" "/api/Employee" responded 200 in 15102.5922 ms
+2026-05-01 16:31:14 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-01 16:31:19 [Information] CACHE MISS : "employees_2_10_na_it_na_asc" -> Fetching from database
+2026-05-01 16:31:21 [Information] HTTP "GET" "/api/Employee" responded 200 in 6527.2588 ms
+2026-05-01 16:31:26 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-01 16:31:31 [Information] CACHE HIT : "employees_2_10_na_it_na_asc"
+2026-05-01 16:31:31 [Information] HTTP "GET" "/api/Employee" responded 200 in 5067.5348 ms
+2026-05-01 16:32:06 [Information] CACHE MISS : "employee_id_6" -> Fetching from database
+2026-05-01 16:32:06 [Information] HTTP "GET" "/api/Employee/6" responded 200 in 140.6086 ms
+2026-05-01 16:32:14 [Information] CACHE HIT : "employee_id_6"
+2026-05-01 16:32:14 [Information] HTTP "GET" "/api/Employee/6" responded 200 in 7.4241 ms
+2026-05-01 16:32:50 [Information] CACHE MISS : "employee_email_roshan@gmail.com" -> Fetching from database
+2026-05-01 16:32:50 [Warning] No employees found in database
+2026-05-01 16:32:50 [Information] HTTP "GET" "/api/Employee/by-email" responded 404 in 109.4039 ms
+2026-05-01 16:33:13 [Information] CACHE MISS : "employee_email_amit1@gmail.com" -> Fetching from database
+2026-05-01 16:33:13 [Information] HTTP "GET" "/api/Employee/by-email" responded 200 in 37.2594 ms
+2026-05-01 16:33:19 [Information] CACHE HIT : "employee_email_amit1@gmail.com"
+2026-05-01 16:33:19 [Information] HTTP "GET" "/api/Employee/by-email" responded 200 in 6.3182 ms
+2026-05-01 16:33:41 [Information] CACHE MISS : "employee_id_5" -> Fetching from database
+2026-05-01 16:33:41 [Information] HTTP "GET" "/api/Employee/5" responded 200 in 65.3934 ms
+2026-05-01 16:35:50 [Information] CACHE CLEARED : All employee related cache removed
+2026-05-01 16:35:53 [Information] HTTP "PUT" "/api/Employee/update-by-email" responded 200 in 27115.2661 ms
+2026-05-01 16:36:44 [Information] CACHE MISS : "employee_id_5" -> Fetching from database
+2026-05-01 16:36:44 [Information] HTTP "GET" "/api/Employee/5" responded 200 in 13278.4775 ms
+2026-05-01 16:47:56 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 342.8562 ms
+2026-05-01 16:47:57 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 70.2134 ms
+2026-05-01 16:48:22 [Information] Health check endpoint called
+2026-05-01 16:48:35 [Information] HTTP "GET" "/health" responded 200 in 17145.6011 ms
+2026-05-01 16:51:09 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 396.3323 ms
+2026-05-01 16:51:10 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 68.4934 ms
+2026-05-01 16:51:23 [Information] Health check endpoint called
+2026-05-01 16:51:35 [Error] HTTP "GET" "/health" responded 500 in 17384.2045 ms
+2026-05-01 16:53:09 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 522.3671 ms
+2026-05-01 16:53:10 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 86.8321 ms
+2026-05-01 16:53:27 [Information] Health check endpoint called
+2026-05-01 16:53:50 [Information] HTTP "GET" "/health" responded 200 in 34574.3815 ms
+2026-05-01 17:01:01 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 1271.3439 ms
+2026-05-01 17:01:02 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 96.7744 ms
+2026-05-01 17:01:18 [Information] Health check endpoint called
+2026-05-01 17:01:30 [Information] HTTP "GET" "/health" responded 200 in 17399.6869 ms
+2026-05-01 17:22:15 [Information] Refresh Token Cleanup Background Service Started
+2026-05-01 17:22:20 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 372.0981 ms
+2026-05-01 17:22:21 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 249.1891 ms
+2026-05-01 17:22:23 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-01 17:24:23 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-01 17:26:24 [Information] BACKGROUND JOB : Cleaned 1 expired refresh tokens
+2026-05-01 17:27:02 [Information] Login endpoint called for "roshan"
+2026-05-01 17:27:02 [Information] Login attempt started for "roshan"
+2026-05-01 17:27:02 [Information] Login successful for "roshan"
+2026-05-01 17:27:02 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 1320.5142 ms
+2026-05-01 17:45:02 [Information] Refresh Token Cleanup Background Service Started
+2026-05-01 17:45:11 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 928.4298 ms
+2026-05-01 17:45:14 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 65.1025 ms
+2026-05-01 17:45:19 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-01 17:45:22 [Information] HTTP "POST" "/api/Auth/register" responded 400 in 1171.1903 ms

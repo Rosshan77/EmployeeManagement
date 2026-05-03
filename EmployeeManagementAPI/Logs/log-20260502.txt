@@ -1,0 +1,419 @@
+2026-05-02 12:57:51 [Information] Refresh Token Cleanup Background Service Started
+2026-05-02 12:58:01 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 561.7628 ms
+2026-05-02 12:58:02 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 101.7096 ms
+2026-05-02 12:58:02 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 12:58:19 [Information] Login endpoint called for "roshan"
+2026-05-02 12:58:19 [Information] Login attempt started for "roshan"
+2026-05-02 12:58:20 [Information] Login successful for "roshan"
+2026-05-02 12:58:20 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 2002.4280 ms
+2026-05-02 12:59:20 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 13:00:05 [Information] REDIS CACHE MISS : "employees_1_5_na_na_na_asc" -> Fetching from database
+2026-05-02 13:00:50 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 13:00:50 [Information] HTTP "GET" "/api/Employee" responded 200 in 90159.2040 ms
+2026-05-02 13:01:17 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 13:01:50 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 13:01:53 [Information] HTTP "GET" "/api/Employee" responded 200 in 36517.3753 ms
+2026-05-02 13:02:48 [Information] Refresh Token Cleanup Background Service Started
+2026-05-02 13:02:52 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 364.9408 ms
+2026-05-02 13:02:53 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 43.0141 ms
+2026-05-02 13:02:56 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 13:03:09 [Information] Login endpoint called for "roshan"
+2026-05-02 13:03:09 [Information] Login attempt started for "roshan"
+2026-05-02 13:03:11 [Information] Login successful for "roshan"
+2026-05-02 13:03:11 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 4141.4782 ms
+2026-05-02 13:03:35 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 13:03:53 [Information] REDIS CACHE MISS : "employees_1_5_na_na_na_asc" -> Fetching from database
+2026-05-02 13:03:54 [Information] HTTP "GET" "/api/Employee" responded 200 in 18896.6769 ms
+2026-05-02 13:04:49 [Information] Refresh Token Cleanup Background Service Started
+2026-05-02 13:04:59 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 526.5074 ms
+2026-05-02 13:05:00 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 47.2888 ms
+2026-05-02 13:05:03 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 13:05:15 [Information] Login endpoint called for "roshan"
+2026-05-02 13:05:15 [Information] Login attempt started for "roshan"
+2026-05-02 13:05:17 [Information] Login successful for "roshan"
+2026-05-02 13:05:17 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 2746.2264 ms
+2026-05-02 13:05:40 [Information] HTTP "GET" "/api/Employee" responded 401 in 346.9569 ms
+2026-05-02 13:06:10 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 13:06:13 [Information] REDIS CACHE MISS : "employees_1_5_na_na_na_asc" -> Fetching from database
+2026-05-02 13:06:14 [Information] HTTP "GET" "/api/Employee" responded 200 in 3566.4729 ms
+2026-05-02 13:06:21 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 13:06:21 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 13:06:21 [Information] HTTP "GET" "/api/Employee" responded 200 in 94.1335 ms
+2026-05-02 13:06:51 [Information] Refresh Token Cleanup Background Service Started
+2026-05-02 13:06:57 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 663.1205 ms
+2026-05-02 13:06:58 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 77.9943 ms
+2026-05-02 13:07:03 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 13:07:15 [Information] Login endpoint called for "roshan"
+2026-05-02 13:07:15 [Information] Login attempt started for "roshan"
+2026-05-02 13:07:16 [Information] Login successful for "roshan"
+2026-05-02 13:07:16 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 2521.3360 ms
+2026-05-02 13:07:37 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 13:07:40 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 13:07:40 [Information] HTTP "GET" "/api/Employee" responded 200 in 2786.2114 ms
+2026-05-02 14:25:17 [Information] Refresh Token Cleanup Background Service Started
+2026-05-02 14:25:23 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 376.7473 ms
+2026-05-02 14:25:24 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 137.6956 ms
+2026-05-02 14:25:30 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 14:25:40 [Information] Login endpoint called for "roshan"
+2026-05-02 14:25:40 [Information] Login attempt started for "roshan"
+2026-05-02 14:25:41 [Information] Login successful for "roshan"
+2026-05-02 14:25:41 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 2042.5958 ms
+2026-05-02 14:25:44 [Information] Login endpoint called for "roshan"
+2026-05-02 14:25:44 [Information] Login attempt started for "roshan"
+2026-05-02 14:25:45 [Information] Login successful for "roshan"
+2026-05-02 14:25:45 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 484.8222 ms
+2026-05-02 14:25:46 [Information] Login endpoint called for "roshan"
+2026-05-02 14:25:46 [Information] Login attempt started for "roshan"
+2026-05-02 14:25:46 [Information] Login successful for "roshan"
+2026-05-02 14:25:46 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 267.7649 ms
+2026-05-02 14:25:47 [Information] Login endpoint called for "roshan"
+2026-05-02 14:25:47 [Information] Login attempt started for "roshan"
+2026-05-02 14:25:47 [Information] Login successful for "roshan"
+2026-05-02 14:25:47 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 232.9335 ms
+2026-05-02 14:25:48 [Information] Login endpoint called for "roshan"
+2026-05-02 14:25:48 [Information] Login attempt started for "roshan"
+2026-05-02 14:25:49 [Information] Login successful for "roshan"
+2026-05-02 14:25:49 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 340.4841 ms
+2026-05-02 14:25:50 [Information] HTTP "POST" "/api/Auth/login" responded 429 in 2.2687 ms
+2026-05-02 14:27:31 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 14:29:43 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 14:30:54 [Information] Refresh Token Cleanup Background Service Started
+2026-05-02 14:30:59 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 340.0720 ms
+2026-05-02 14:31:00 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 162.3585 ms
+2026-05-02 14:31:03 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 14:31:14 [Information] Login endpoint called for "roshan"
+2026-05-02 14:31:14 [Information] Login attempt started for "roshan"
+2026-05-02 14:31:15 [Information] Login successful for "roshan"
+2026-05-02 14:31:15 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 1792.0259 ms
+2026-05-02 14:31:19 [Information] Login endpoint called for "roshan"
+2026-05-02 14:31:19 [Information] Login attempt started for "roshan"
+2026-05-02 14:31:20 [Information] Login successful for "roshan"
+2026-05-02 14:31:20 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 525.4443 ms
+2026-05-02 14:31:21 [Information] Login endpoint called for "roshan"
+2026-05-02 14:31:21 [Information] Login attempt started for "roshan"
+2026-05-02 14:31:21 [Information] Login successful for "roshan"
+2026-05-02 14:31:21 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 375.3138 ms
+2026-05-02 14:31:22 [Information] Login endpoint called for "roshan"
+2026-05-02 14:31:22 [Information] Login attempt started for "roshan"
+2026-05-02 14:31:22 [Information] Login successful for "roshan"
+2026-05-02 14:31:22 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 243.4033 ms
+2026-05-02 14:31:24 [Information] Login endpoint called for "roshan"
+2026-05-02 14:31:24 [Information] Login attempt started for "roshan"
+2026-05-02 14:31:24 [Information] Login successful for "roshan"
+2026-05-02 14:31:24 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 255.8409 ms
+2026-05-02 14:31:24 [Information] HTTP "POST" "/api/Auth/login" responded 429 in 11.7578 ms
+2026-05-02 14:33:03 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 14:33:42 [Information] Login endpoint called for "roshan"
+2026-05-02 14:33:42 [Information] Login attempt started for "roshan"
+2026-05-02 14:33:43 [Information] Login successful for "roshan"
+2026-05-02 14:33:43 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 828.3427 ms
+2026-05-02 14:34:05 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:07 [Information] REDIS CACHE MISS : "employees_1_5_na_na_na_asc" -> Fetching from database
+2026-05-02 14:34:07 [Information] HTTP "GET" "/api/Employee" responded 200 in 3070.1600 ms
+2026-05-02 14:34:08 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:08 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:08 [Information] HTTP "GET" "/api/Employee" responded 200 in 54.6914 ms
+2026-05-02 14:34:09 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:09 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:09 [Information] HTTP "GET" "/api/Employee" responded 200 in 34.6205 ms
+2026-05-02 14:34:10 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:10 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:10 [Information] HTTP "GET" "/api/Employee" responded 200 in 32.9424 ms
+2026-05-02 14:34:10 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:10 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:10 [Information] HTTP "GET" "/api/Employee" responded 200 in 9.5271 ms
+2026-05-02 14:34:10 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:10 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:10 [Information] HTTP "GET" "/api/Employee" responded 200 in 27.9445 ms
+2026-05-02 14:34:10 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:10 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:10 [Information] HTTP "GET" "/api/Employee" responded 200 in 22.2120 ms
+2026-05-02 14:34:11 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:11 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:11 [Information] HTTP "GET" "/api/Employee" responded 200 in 11.7599 ms
+2026-05-02 14:34:11 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:11 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:11 [Information] HTTP "GET" "/api/Employee" responded 200 in 45.8190 ms
+2026-05-02 14:34:12 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:12 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:12 [Information] HTTP "GET" "/api/Employee" responded 200 in 61.5418 ms
+2026-05-02 14:34:12 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:12 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:12 [Information] HTTP "GET" "/api/Employee" responded 200 in 37.1041 ms
+2026-05-02 14:34:13 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:13 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:13 [Information] HTTP "GET" "/api/Employee" responded 200 in 14.3708 ms
+2026-05-02 14:34:13 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:13 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:13 [Information] HTTP "GET" "/api/Employee" responded 200 in 13.3182 ms
+2026-05-02 14:34:13 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:13 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:13 [Information] HTTP "GET" "/api/Employee" responded 200 in 13.7368 ms
+2026-05-02 14:34:14 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:14 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:14 [Information] HTTP "GET" "/api/Employee" responded 200 in 10.3257 ms
+2026-05-02 14:34:14 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:14 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:14 [Information] HTTP "GET" "/api/Employee" responded 200 in 31.6186 ms
+2026-05-02 14:34:14 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:14 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:14 [Information] HTTP "GET" "/api/Employee" responded 200 in 54.2673 ms
+2026-05-02 14:34:15 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:15 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:15 [Information] HTTP "GET" "/api/Employee" responded 200 in 16.1140 ms
+2026-05-02 14:34:15 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:15 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:15 [Information] HTTP "GET" "/api/Employee" responded 200 in 10.3437 ms
+2026-05-02 14:34:15 [Information] GetAll Employees endpoint called with pagination/filter
+2026-05-02 14:34:15 [Information] REDIS CACHE HIT : "employees_1_5_na_na_na_asc"
+2026-05-02 14:34:15 [Information] HTTP "GET" "/api/Employee" responded 200 in 9.8000 ms
+2026-05-02 14:34:16 [Information] HTTP "GET" "/api/Employee" responded 429 in 1.4002 ms
+2026-05-02 14:34:16 [Information] HTTP "GET" "/api/Employee" responded 429 in 1.8704 ms
+2026-05-02 14:34:16 [Information] HTTP "GET" "/api/Employee" responded 429 in 0.2267 ms
+2026-05-02 14:34:17 [Information] HTTP "GET" "/api/Employee" responded 429 in 0.2925 ms
+2026-05-02 14:34:17 [Information] HTTP "GET" "/api/Employee" responded 429 in 0.1928 ms
+2026-05-02 17:51:03 [Information] Refresh Token Cleanup Background Service Started
+2026-05-02 17:51:10 [Information] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 17:51:11 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 445.4174 ms
+2026-05-02 17:51:13 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 176.3274 ms
+2026-05-02 17:51:47 [Information] Login endpoint called for "roshan"
+2026-05-02 17:51:47 [Information] Login attempt started for "roshan"
+2026-05-02 17:51:49 [Information] Login successful for "roshan"
+2026-05-02 17:51:49 [Information] HTTP "POST" "/api/v1/Auth/login" responded 200 in 3075.1748 ms
+2026-05-02 18:12:42 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-02 18:12:56 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:12:56 [INF] [CorrelationId: ] HTTP GET /swagger/index.html responded 200 in 344.4560 ms
+2026-05-02 18:12:57 [INF] [CorrelationId: ] HTTP GET /swagger/v1/swagger.json responded 200 in 190.2192 ms
+2026-05-02 18:13:36 [INF] [CorrelationId: ] Login endpoint called for roshan
+2026-05-02 18:13:36 [INF] [CorrelationId: ] Login attempt started for roshan
+2026-05-02 18:13:38 [INF] [CorrelationId: ] Login successful for roshan
+2026-05-02 18:13:38 [INF] [CorrelationId: ] HTTP POST /api/v1/Auth/login responded 200 in 3381.5493 ms
+2026-05-02 18:14:01 [INF] [CorrelationId: ] GetAll Employees endpoint called with pagination/filter
+2026-05-02 18:14:04 [INF] [CorrelationId: ] REDIS CACHE MISS : employees_1_5_na_na_na_asc -> Fetching from database
+2026-05-02 18:14:05 [INF] [CorrelationId: ] HTTP GET /api/v1/Employee responded 200 in 3593.6701 ms
+2026-05-02 18:14:57 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:17:02 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:22:20 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-02 18:22:26 [INF] [CorrelationId: ] HTTP GET /swagger/index.html responded 200 in 371.8619 ms
+2026-05-02 18:22:27 [INF] [CorrelationId: ] HTTP GET /swagger/v1/swagger.json responded 200 in 113.5046 ms
+2026-05-02 18:22:28 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:22:43 [INF] [CorrelationId: 7d56bfea-0c0d-43ac-b2ee-a19151025ede] Login endpoint called for roshan
+2026-05-02 18:22:43 [INF] [CorrelationId: 7d56bfea-0c0d-43ac-b2ee-a19151025ede] Login attempt started for roshan
+2026-05-02 18:22:44 [INF] [CorrelationId: 7d56bfea-0c0d-43ac-b2ee-a19151025ede] Login successful for roshan
+2026-05-02 18:22:44 [INF] [CorrelationId: ] HTTP POST /api/v1/Auth/login responded 200 in 2496.0736 ms
+2026-05-02 18:23:17 [INF] [CorrelationId: 40e12096-d75d-4b20-b21c-9d303f3be831] GetAll Employees endpoint called with pagination/filter
+2026-05-02 18:23:19 [INF] [CorrelationId: 40e12096-d75d-4b20-b21c-9d303f3be831] REDIS CACHE MISS : employees_5_10_na_na_na_asc -> Fetching from database
+2026-05-02 18:23:19 [INF] [CorrelationId: ] HTTP GET /api/v1/Employee responded 200 in 2726.8825 ms
+2026-05-02 18:24:28 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:26:29 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:29:01 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-02 18:29:05 [INF] [CorrelationId: b04081e8-263b-4407-856c-69ceb620a6ea] HTTP GET /swagger/index.html responded 200 in 360.2394 ms
+2026-05-02 18:29:06 [INF] [CorrelationId: abc7af6e-4ef7-4535-918a-9a143cb6aa3c] HTTP GET /swagger/v1/swagger.json responded 200 in 98.3331 ms
+2026-05-02 18:29:09 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:29:21 [INF] [CorrelationId: b811c2cc-a513-4bb2-975f-a8afdd50ce04] Login endpoint called for roshan
+2026-05-02 18:29:21 [INF] [CorrelationId: b811c2cc-a513-4bb2-975f-a8afdd50ce04] Login attempt started for roshan
+2026-05-02 18:29:23 [INF] [CorrelationId: b811c2cc-a513-4bb2-975f-a8afdd50ce04] Login successful for roshan
+2026-05-02 18:29:23 [INF] [CorrelationId: b811c2cc-a513-4bb2-975f-a8afdd50ce04] HTTP POST /api/v1/Auth/login responded 200 in 2703.4067 ms
+2026-05-02 18:31:11 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:40:53 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-02 18:41:06 [INF] [CorrelationId: 12032dfd-ad97-4f81-9337-66583139c6b5] HTTP GET /swagger/index.html responded 200 in 2703.7513 ms
+2026-05-02 18:41:07 [WRN] [CorrelationId: ] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 18:41:07 [WRN] [CorrelationId: ] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 18:41:07 [INF] [CorrelationId: 13b7e8c3-ba08-4a53-9f63-a7ca5215f114] HTTP GET /swagger/v1/swagger.json responded 200 in 181.6406 ms
+2026-05-02 18:41:11 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:41:23 [INF] [CorrelationId: 1dd8efb5-1f3e-4432-a3a3-33b1f89a93a9] Login endpoint called for ROSHAN
+2026-05-02 18:41:23 [INF] [CorrelationId: 1dd8efb5-1f3e-4432-a3a3-33b1f89a93a9] Login attempt started for ROSHAN
+2026-05-02 18:41:23 [WRN] [CorrelationId: 1dd8efb5-1f3e-4432-a3a3-33b1f89a93a9] Invalid login - wrong password for ROSHAN
+2026-05-02 18:41:23 [INF] [CorrelationId: 1dd8efb5-1f3e-4432-a3a3-33b1f89a93a9] HTTP POST /api/v1/Auth/login responded 401 in 2217.6052 ms
+2026-05-02 18:41:43 [INF] [CorrelationId: a2ae2f1a-e676-4a89-807f-a9f030b6be34] Login endpoint called for roshan
+2026-05-02 18:41:43 [INF] [CorrelationId: a2ae2f1a-e676-4a89-807f-a9f030b6be34] Login attempt started for roshan
+2026-05-02 18:41:44 [INF] [CorrelationId: a2ae2f1a-e676-4a89-807f-a9f030b6be34] Login successful for roshan
+2026-05-02 18:41:44 [INF] [CorrelationId: a2ae2f1a-e676-4a89-807f-a9f030b6be34] HTTP POST /api/v1/Auth/login responded 200 in 869.4694 ms
+2026-05-02 18:42:06 [INF] [CorrelationId: 3001fe28-1162-4b65-ab9a-c57ccc5bd7a0] GetAll Employees endpoint called with pagination/filter
+2026-05-02 18:42:08 [INF] [CorrelationId: 3001fe28-1162-4b65-ab9a-c57ccc5bd7a0] REDIS CACHE MISS : employees_1_20_na_na_na_asc -> Fetching from database
+2026-05-02 18:42:19 [INF] [CorrelationId: 3001fe28-1162-4b65-ab9a-c57ccc5bd7a0] HTTP GET /api/v1/Employee responded 200 in 12985.7936 ms
+2026-05-02 18:43:11 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:45:11 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:47:11 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:58:03 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-02 18:58:16 [INF] [CorrelationId: cfb80a08-9334-4e20-a5fd-1239e5f502eb] HTTP GET /swagger/index.html responded 200 in 335.4749 ms
+2026-05-02 18:58:16 [WRN] [CorrelationId: ] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 18:58:16 [WRN] [CorrelationId: ] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 18:58:16 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 18:58:17 [INF] [CorrelationId: 81ffe63a-ad76-4d1e-9c03-5d018bf56a97] HTTP GET /swagger/v1/swagger.json responded 200 in 63.2165 ms
+2026-05-02 18:58:40 [INF] [CorrelationId: f8dec229-9e03-4771-99e5-2f5f6d777cf1] Login endpoint called for roshan
+2026-05-02 18:58:40 [INF] [CorrelationId: f8dec229-9e03-4771-99e5-2f5f6d777cf1] Login attempt started for roshan
+2026-05-02 18:58:43 [INF] [CorrelationId: f8dec229-9e03-4771-99e5-2f5f6d777cf1] Login successful for roshan
+2026-05-02 18:58:43 [INF] [CorrelationId: f8dec229-9e03-4771-99e5-2f5f6d777cf1] HTTP POST /api/v1/Auth/login responded 200 in 4402.8240 ms
+2026-05-02 19:00:18 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 19:00:43 [INF] [CorrelationId: cc5b88e3-8607-46d1-953e-b25185395778] GetAll Employees endpoint called with pagination/filter
+2026-05-02 19:00:45 [INF] [CorrelationId: cc5b88e3-8607-46d1-953e-b25185395778] REDIS CACHE MISS : employees_1_5_na_na_na_asc -> Fetching from database
+2026-05-02 19:00:46 [INF] [CorrelationId: cc5b88e3-8607-46d1-953e-b25185395778] HTTP GET /api/v1/Employee responded 200 in 4524.4464 ms
+2026-05-02 19:02:19 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 19:04:19 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 19:04:35 [INF] [CorrelationId: 86d50ad7-533d-4377-86d7-375a7f32988a] Login endpoint called for ROSHAN
+2026-05-02 19:04:35 [INF] [CorrelationId: 86d50ad7-533d-4377-86d7-375a7f32988a] Login attempt started for ROSHAN
+2026-05-02 19:04:36 [WRN] [CorrelationId: 86d50ad7-533d-4377-86d7-375a7f32988a] Invalid login - wrong password for ROSHAN
+2026-05-02 19:04:36 [INF] [CorrelationId: 86d50ad7-533d-4377-86d7-375a7f32988a] HTTP POST /api/v1/Auth/login responded 401 in 1127.5621 ms
+2026-05-02 19:09:30 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-02 19:09:35 [INF] [CorrelationId: c07f6a56-0902-46fc-a17f-491d871feb6b] HTTP GET /swagger/index.html responded 200 in 543.1532 ms
+2026-05-02 19:09:36 [WRN] [CorrelationId: ] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 19:09:36 [WRN] [CorrelationId: ] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 19:09:36 [INF] [CorrelationId: 226590fb-fbf9-4b7d-9f4a-c426af7fc987] HTTP GET /swagger/v1/swagger.json responded 200 in 77.8958 ms
+2026-05-02 19:09:40 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 19:09:56 [INF] [CorrelationId: 1cdb87b2-fb8b-42a9-859b-b2955d7899ad] Login endpoint called for roshan
+2026-05-02 19:10:04 [INF] [CorrelationId: 1cdb87b2-fb8b-42a9-859b-b2955d7899ad] Login attempt started for roshan
+2026-05-02 19:11:58 [WRN] [CorrelationId: 1cdb87b2-fb8b-42a9-859b-b2955d7899ad] Invalid login - wrong password for roshan
+2026-05-02 19:11:58 [INF] [CorrelationId: 1cdb87b2-fb8b-42a9-859b-b2955d7899ad] HTTP POST /api/v1/Auth/login responded 401 in 123155.4752 ms
+2026-05-02 19:11:58 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-02 19:28:14 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-02 19:28:39 [INF] [CorrelationId: 338a6467-3447-4ee6-b08d-576a0de57fb5] HTTP GET /swagger/index.html responded 200 in 1443.5299 ms
+2026-05-02 19:28:40 [WRN] [CorrelationId: ] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 19:28:40 [WRN] [CorrelationId: ] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-02 19:28:41 [ERR] [CorrelationId: ] An error occurred using the connection to database 'EmployeeDB' on server 'DESKTOP-55TOBR3\SQLEXPRESS'.
+2026-05-02 19:28:41 [INF] [CorrelationId: 1e1d19c8-1d65-4f0d-9b34-5ed98c98a737] HTTP GET /swagger/v1/swagger.json responded 200 in 114.9791 ms
+2026-05-02 19:28:43 [ERR] [CorrelationId: ] An exception occurred while iterating over the results of a query for context type 'EmployeeManagementDAL.Context.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=515; handshake=215; [Login] initialization=8; authentication=21; [Post-Login] complete=14383; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:5966b236-73b3-47b9-8279-8088511d7b63
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=515; handshake=215; [Login] initialization=8; authentication=21; [Post-Login] complete=14383; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:5966b236-73b3-47b9-8279-8088511d7b63
+Error Number:-2,State:0,Class:11
+2026-05-02 19:28:44 [ERR] [CorrelationId: ] BackgroundService failed
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=515; handshake=215; [Login] initialization=8; authentication=21; [Post-Login] complete=14383; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EmployeeManagementDAL.Repositories.UserRepository.CleanupExpiredRefreshTokens() in C:\Learning\DotNet\EmployeeManagementDAL\Repositories\UserRepository.cs:line 71
+   at EmployeeManagementAPI.BackgroundServices.RefreshTokenCleanupService.ExecuteAsync(CancellationToken stoppingToken) in C:\Learning\DotNet\EmployeeManagementBLL\Services\RefreshTokenCleanupService.cs:line 31
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+ClientConnectionId:5966b236-73b3-47b9-8279-8088511d7b63
+Error Number:-2,State:0,Class:11
+2026-05-02 19:28:45 [FTL] [CorrelationId: ] The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=515; handshake=215; [Login] initialization=8; authentication=21; [Post-Login] complete=14383; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at EmployeeManagementDAL.Repositories.UserRepository.CleanupExpiredRefreshTokens() in C:\Learning\DotNet\EmployeeManagementDAL\Repositories\UserRepository.cs:line 71
+   at EmployeeManagementAPI.BackgroundServices.RefreshTokenCleanupService.ExecuteAsync(CancellationToken stoppingToken) in C:\Learning\DotNet\EmployeeManagementBLL\Services\RefreshTokenCleanupService.cs:line 31
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+ClientConnectionId:5966b236-73b3-47b9-8279-8088511d7b63
+Error Number:-2,State:0,Class:11

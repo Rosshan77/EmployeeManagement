@@ -1,0 +1,14 @@
+2026-05-03 12:13:36 [INF] [CorrelationId: ] Refresh Token Cleanup Background Service Started
+2026-05-03 12:13:49 [INF] [CorrelationId: ] BACKGROUND JOB : Cleaned 0 expired refresh tokens
+2026-05-03 12:13:49 [INF] [CorrelationId: 1fe4974c-0c24-4674-a818-70e39a1a0464] HTTP GET /swagger/index.html responded 200 in 374.2042 ms
+2026-05-03 12:13:49 [WRN] [CorrelationId: ] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-03 12:13:49 [WRN] [CorrelationId: ] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2026-05-03 12:13:50 [INF] [CorrelationId: a14963a0-1810-4872-b341-083ee910225f] HTTP GET /swagger/v1/swagger.json responded 200 in 87.0662 ms
+2026-05-03 12:14:03 [INF] [CorrelationId: e4729e98-b28d-4047-8e0a-d5d9b4385242] Login endpoint called for roshan
+2026-05-03 12:14:04 [INF] [CorrelationId: e4729e98-b28d-4047-8e0a-d5d9b4385242] Login attempt started for roshan
+2026-05-03 12:14:05 [INF] [CorrelationId: e4729e98-b28d-4047-8e0a-d5d9b4385242] Login successful for roshan
+2026-05-03 12:14:05 [INF] [CorrelationId: e4729e98-b28d-4047-8e0a-d5d9b4385242] HTTP POST /api/v1/Auth/login responded 200 in 2576.3085 ms
+2026-05-03 12:14:14 [INF] [CorrelationId: 20f2680c-be6e-4d2e-864a-482b22d8672e] Login endpoint called for roshan
+2026-05-03 12:14:14 [INF] [CorrelationId: 20f2680c-be6e-4d2e-864a-482b22d8672e] Login attempt started for roshan
+2026-05-03 12:14:14 [WRN] [CorrelationId: 20f2680c-be6e-4d2e-864a-482b22d8672e] Invalid login - wrong password for roshan
+2026-05-03 12:14:14 [INF] [CorrelationId: 20f2680c-be6e-4d2e-864a-482b22d8672e] HTTP POST /api/v1/Auth/login responded 401 in 559.3761 ms

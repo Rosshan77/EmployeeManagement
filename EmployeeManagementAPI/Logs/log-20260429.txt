@@ -1,0 +1,52 @@
+2026-04-29 12:47:23 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 843.7110 ms
+2026-04-29 12:47:25 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 140.1013 ms
+2026-04-29 12:47:42 [Information] Login endpoint called for "roshan"
+2026-04-29 12:47:42 [Information] Login attempt started for "roshan"
+2026-04-29 12:47:47 [Information] Login successful for "roshan"
+2026-04-29 12:47:48 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 6971.3501 ms
+2026-04-29 12:49:37 [Information] RefreshToken endpoint called for "roshan"
+2026-04-29 12:49:37 [Information] Refresh token request started for "roshan"
+2026-04-29 12:49:37 [Information] Refresh token successful for "roshan"
+2026-04-29 12:49:37 [Information] HTTP "POST" "/api/Auth/refresh-token" responded 200 in 185.6388 ms
+2026-04-29 12:51:15 [Information] RefreshToken endpoint called for "roshan"
+2026-04-29 12:51:15 [Information] Refresh token request started for "roshan"
+2026-04-29 12:51:15 [Information] HTTP "POST" "/api/Auth/refresh-token" responded 401 in 236.3763 ms
+2026-04-29 12:51:47 [Information] RefreshToken endpoint called for "roshan"
+2026-04-29 12:51:47 [Information] Refresh token request started for "roshan"
+2026-04-29 12:51:48 [Information] HTTP "POST" "/api/Auth/refresh-token" responded 401 in 56.0908 ms
+2026-04-29 12:52:08 [Information] RefreshToken endpoint called for "roshttan"
+2026-04-29 12:52:08 [Information] Refresh token request started for "roshttan"
+2026-04-29 12:52:08 [Information] HTTP "POST" "/api/Auth/refresh-token" responded 401 in 27.7957 ms
+2026-04-29 13:32:38 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 500.6641 ms
+2026-04-29 13:32:39 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 169.2358 ms
+2026-04-29 13:34:43 [Information] HTTP "GET" "/api/Employee" responded 401 in 747.8717 ms
+2026-04-29 13:35:04 [Information] Login endpoint called for "roshan"
+2026-04-29 13:35:05 [Information] Login attempt started for "roshan"
+2026-04-29 13:35:09 [Information] Login successful for "roshan"
+2026-04-29 13:35:09 [Information] HTTP "POST" "/api/Auth/login" responded 200 in 5532.8922 ms
+2026-04-29 13:35:35 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:39:26 [Information] HTTP "GET" "/api/Employee" responded 200 in 241338.0865 ms
+2026-04-29 13:43:21 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:43:22 [Information] HTTP "GET" "/api/Employee" responded 200 in 8227.8628 ms
+2026-04-29 13:43:48 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:43:48 [Information] HTTP "GET" "/api/Employee" responded 200 in 99.4008 ms
+2026-04-29 13:44:02 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:44:02 [Information] HTTP "GET" "/api/Employee" responded 200 in 180.0995 ms
+2026-04-29 13:44:58 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:44:58 [Information] HTTP "GET" "/api/Employee" responded 200 in 213.9680 ms
+2026-04-29 13:45:33 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:45:33 [Information] HTTP "GET" "/api/Employee" responded 200 in 145.1246 ms
+2026-04-29 13:46:16 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:46:16 [Information] HTTP "GET" "/api/Employee" responded 200 in 80.4714 ms
+2026-04-29 13:46:49 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:46:49 [Information] HTTP "GET" "/api/Employee" responded 200 in 62.1291 ms
+2026-04-29 13:46:58 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:46:58 [Information] HTTP "GET" "/api/Employee" responded 200 in 124.1263 ms
+2026-04-29 13:47:23 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:47:23 [Information] HTTP "GET" "/api/Employee" responded 200 in 85.7538 ms
+2026-04-29 13:47:34 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:47:34 [Information] HTTP "GET" "/api/Employee" responded 200 in 196.6571 ms
+2026-04-29 13:48:08 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:48:08 [Information] HTTP "GET" "/api/Employee" responded 200 in 7126.3192 ms
+2026-04-29 13:48:36 [Information] GetAll Employees endpoint called with pagination/filter
+2026-04-29 13:48:36 [Information] HTTP "GET" "/api/Employee" responded 200 in 5826.1916 ms
